@@ -36,8 +36,7 @@ public class Biweeklypaycheckcalulator {
         overtime_rate=payrate*1.5;
         overtime_hours=hours_worked-40;
         overtime_hours2=hours_worked-40;
-        if (hours_worked > 40 && hours_worked2<= 40)
-        {
+        if (hours_worked > 40 && hours_worked2 <= 40) {
             overtime_pay = overtime_rate*overtime_hours;
             pay = (payrate * 40) + overtime_pay;
             pay2 = payrate * hours_worked2;
